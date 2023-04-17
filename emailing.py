@@ -1,12 +1,11 @@
 import smtplib
 import imghdr
-import os
 from email.message import EmailMessage
 
 # Set your app password, sender/receiver email address:
-PASSWORD = "lkootcrkvyhxsrly"
-SENDER = "wcamdetect.3637@gmail.com"
-RECEIVER = "wcamdetect.3637@gmail.com"
+PASSWORD = "Enter Your App Password Here"
+SENDER = "Enter Your Email Address"
+RECEIVER = "Enter Your Email Address"
 
 
 def send_email(image):
